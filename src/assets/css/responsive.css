@@ -1,0 +1,237 @@
+@media screen and (max-width: 1600px){
+    .userProfile_detail {
+        width: calc(100% - 400px);
+    }
+    .editProfile-section {
+        width: calc(100% - 400px);
+    }
+    .setting_wrapper {
+        width: calc(100% - 150px);
+    }
+    .modal_btnSect .cta {
+        padding: 2px 40px;
+    }
+}
+@media screen and (max-width: 1440px){
+    .prodImg {
+        width: 110px;
+    }
+    .prodImg img {
+        width: 110px;
+        height: 110px;
+    }
+    .url_list {
+        height: 600px;
+    }
+    .chatLeft {
+        max-width: 400px;
+    }
+    .chatRight {
+        width: calc(100% - 400px);
+    }
+    .header-bar {
+        padding: 20px 30px;
+    }
+    .content-section {
+        padding: 20px 30px 50px;
+    }
+    .roomDetail-sect {
+        width: calc(100% - 50px);
+    }
+    .Amenities li {
+        font-size: 16px;
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 1366px){
+    .userProfile_detail {
+        width: 100%;
+    }
+    .editProfile-section {
+        width: 100%;
+    }
+    .setting_wrapper {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1280px){
+    .modal_btnSect .cta {
+        padding: 2px 20px;
+        height: 45px;
+    }
+    .roomDetail-sect {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .setting_wrapper {
+        padding: 50px 20px;
+    }
+    .savedCards_detail p {
+        width: calc(100% - 160px);
+        font-size: 14px;
+    }
+    .selectCard .form-check label img {
+        width: 60px;
+    }
+    .selectCard {
+        padding: 0 20px;
+    }
+    .add_newCard .user-desc {
+        padding: 0 20px;
+    }
+    .descPara {
+        padding: 50px 20px;
+    }
+    .chatLeft {
+        max-width: 350px;
+    }
+    .chatLeft .nav-tabs .nav-link{
+        padding: 5px;
+    }
+    .chatLeft .owner_desc .title {
+        font-size: 18px;
+    }
+    .chatLeft .owner_desc .paragraph {
+        font-size: 12px;
+    }
+    .user_msg_desc_bg .paragraph {
+        font-size: 14px;
+        font-weight: 300;
+    }
+}
+@media screen and (max-width: 991px){
+    .searchSect {
+        width: 300px;
+    }
+    .room_images img {
+        height: 150px;
+    }
+    .Amenities {
+        gap: 10px;
+    }
+    .Amenities li {
+        gap: 5px;
+        padding: 0 5px;
+    }
+}
+@media screen and (max-width: 910px){
+    .header-bar {
+        padding: 20px 30px;
+    }
+    .content-section {
+        padding: 20px 20px 50px;
+    }
+    .productCard{
+        padding: 20px 10px;
+    }
+    .prodImg {
+        width: 100px;
+    }
+    .prodImg img {
+        width: 100px;
+        height: 100px;
+    }
+    .user_msg_detail {
+        padding: 50px 10px 10px;
+    }
+}
+@media screen and (max-width: 767px){
+    .inbox-content{
+        flex-direction: column;
+    }
+    .chatRight {
+        width: 100%;
+    }
+    .hotel-categorySect .table thead th {
+        font-size: 16px;
+        font-weight: 400;
+        min-width: 150px !important;
+    }
+    .add_newCard{
+        margin-top: 30px;
+    }
+    .login_logo a img {
+        max-width: 350px;
+    }
+    .login_wrapper {
+        width: 450px;
+    }
+}
+@media screen and (max-width: 575px){
+    .login_section{
+        background: #010F2A;
+    }
+    .login_logo a img {
+        max-width: 250px;
+    }
+    .loginTitle {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .bottom_link {
+        font-size: 16px;
+    }  
+    .login_wrapper {
+        width: 350px;
+    }
+    .login_form{
+        justify-content: center;
+    }          
+    .content-section {
+        padding: 20px 20px 50px;
+    }
+    .header-bar {
+        padding: 20px;
+        height: 80px;
+    }
+    .searchSect {
+        width: 250px;
+    }
+    .loader img { 
+        max-width : 250px; 
+    }
+    .bookingCard .modal_btnSect .cta {
+        padding: 0px 30px;
+        height: 45px;
+    }
+    .bookingSect ul{
+        margin-top: 20px;
+    }
+    .term_condition_sect ul{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 425px){
+    .productCard{
+        flex-wrap: wrap;
+    }
+    .productCard .edit-delSect {
+        position: absolute;
+    }
+    .prodImg {
+        width: 100%;
+        text-align: center;
+    }
+    .prodDetail {
+        width: 100%;
+    }
+    .searchSect{
+        display: none;
+    }
+    .titleSect h3 {
+        font-size: 20px;
+    }
+    .Amenities li{
+        font-size: 13px;
+        height: 45px;
+    }
+    .bookingSect ul{
+        justify-content: center;
+    }
+    .cta {
+        height: 45px;
+        padding: 0 10px;
+        font-size: 16px;
+    }
+}
